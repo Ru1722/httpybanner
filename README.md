@@ -6,4 +6,7 @@ Linux (I used Kali Linux)
 Netcat (for the malformed packet portion of the code)
 Python (2.7)
 
+# UPDATES
+I fixed a bug. Instead of the program quitting on invalid input, it will prompt you to select your choice again.
+
 # I AM NOT RESPONSIBLE FOR ANYTHING DONE ILLEGALLY WITH THIS PROGRAM! YOU ARE RESPONSIBLE FOR WHAT YOU DO WITH THIS, NOT ME!
