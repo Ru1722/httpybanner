@@ -1,6 +1,8 @@
-#AUTHOR:ru2600
-#PROGRAM:httpybanner.py
-#DESCRIPTION:Banner grabber for python, grabs banners and tells possible server used plus send malformed requests
+#AUTHOR:        ru2600
+#PROGRAM:       httpybanner.py
+#DESCRIPTION:   Banner grabber for python, grabs banners and tells possible server used plus send malformed requests
+#VERSION:       1.1
+#DEV NOTES:     Fixed bug for main menu, instead of quitting on invalid numerical input, it will ask again.
 
 import requests     #Used to create connection with server
 import errno        #Get errors
@@ -20,6 +22,7 @@ def start():
         quit()
     else:
         print "Invalid request!"
+        start()
 
 def fingerprint():
     server = raw_input("Enter the server you wish to scan: ")
